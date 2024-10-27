@@ -10,23 +10,32 @@ body {
 
 .container{
     min-height: 400px;
-    min-width: 400px;
+    width: 300px;
     height: fit-content;
     background-color: rgb(34, 39, 33);
     overflow-wrap:anywhere;
     overflow-y: scroll;
-    padding: 20px;
+    align-items: self-start;
 }
 .container div{
     height: fit-content;
     
     margin-bottom: 10px;
-    background-color: rgba(27, 92, 27, 0.36);
+    /* background-color: rgba(27, 92, 27, 0.36); */
     padding: 10px;
     display: flex;
 }
 
+.d1 {
+    background-color: rgba(0, 128, 0, 0.534);
+    width:200px;
+    height: fit-content;
+    border-radius: 5px;
+    
+}
+
 .delete-btn {
+    border-radius: 4px;
     padding: 10px;
     height: 35px;
     width: max-content;

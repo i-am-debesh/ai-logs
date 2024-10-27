@@ -24,11 +24,11 @@ function renderList(data) {
         const htmlElement = 
         `
         <div>
-            <div>
-                Ques: ${currData.content}
+            <div class="d1">
+                Ques: ${currData.content}<br>
                 Time: ${currData.timestamp}
                 
-                Resp: ${currData.response}
+                <!-- Resp: ${currData.response} -->
                 
             </div>
 
