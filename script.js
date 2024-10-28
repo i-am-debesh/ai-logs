@@ -62,7 +62,7 @@ async function getData() {
 getData();
 
 async function requestDelete(id) {
-    const deleteUrl = `https://ai-model-debesh.onrender.com/delete`;
+    const deleteUrl = `https://ai-model-debesh.onrender.com/dltID?${id}`;
     //const deleteUrl = `http://localhost:3000/dltID?${id}`;
     let confirmation = prompt(`Enter password to Delete`);
 
